@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The shopping cart should sort item names in alphbetical order 1`] = `
+[
+  {
+    "category": "Electronics",
+    "id": 7,
+    "inStock": true,
+    "name": "Bluetooth Headset",
+    "price": 59.99,
+    "rating": 4.6,
+  },
+  {
+    "category": "Home Goods",
+    "id": 4,
+    "inStock": true,
+    "name": "Ceramic Mug",
+    "price": 12,
+    "rating": 4,
+  },
+  {
+    "category": "Apparel",
+    "id": 1,
+    "inStock": true,
+    "name": "Classic Tee",
+    "price": 19.99,
+    "rating": 4.2,
+  },
+  {
+    "category": "Apparel",
+    "id": 3,
+    "inStock": true,
+    "name": "Cozy Hoodie",
+    "price": 49.5,
+    "rating": 4.5,
+  },
+  {
+    "category": "Home Goods",
+    "id": 10,
+    "inStock": true,
+    "name": "Desk Lamp",
+    "price": 22.5,
+    "rating": 4.4,
+  },
+  {
+    "category": "Books",
+    "id": 5,
+    "inStock": false,
+    "name": "Hardcover Book",
+    "price": 24.99,
+    "rating": 4.9,
+  },
+  {
+    "category": "Footwear",
+    "id": 2,
+    "inStock": false,
+    "name": "Running Sneakers",
+    "price": 89.95,
+    "rating": 4.8,
+  },
+  {
+    "category": "Outdoor",
+    "id": 8,
+    "inStock": false,
+    "name": "Water Bottle",
+    "price": 15,
+    "rating": 4.1,
+  },
+  {
+    "category": "Electronics",
+    "id": 6,
+    "inStock": true,
+    "name": "Wireless Mouse",
+    "price": 29.99,
+    "rating": 4.3,
+  },
+  {
+    "category": "Fitness",
+    "id": 9,
+    "inStock": true,
+    "name": "Yoga Mat",
+    "price": 35,
+    "rating": 4.7,
+  },
+]
+`;
