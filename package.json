@@ -1,0 +1,23 @@
+{
+  "name": "software-dev-course-unit-testing-vijayalakshmi-r",
+  "version": "1.0.0",
+  "description": "This is the README.md file! I, as the presenter, will fill it with content!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viji-qmofi/software-dev-course-unit-testing-Vijayalakshmi-R.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viji-qmofi/software-dev-course-unit-testing-Vijayalakshmi-R/issues"
+  },
+  "homepage": "https://github.com/Viji-qmofi/software-dev-course-unit-testing-Vijayalakshmi-R#readme",
+  "dependencies": {
+    "jest": "^30.1.3"
+  }
+}
