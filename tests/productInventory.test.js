@@ -123,5 +123,38 @@ describe('sortInventory', () => {
     expect(sortInventory([], 'quantity')).toEqual([]);
   });
 });
+/* Output
+$ npm test
 
+> software-dev-course-unit-testing-vijayalakshmi-r@1.0.0 test
+> jest
+
+ PASS  tests/productInventory.test.js
+  Calculate discount for the product
+    √ applies a valid discount rate (3 ms)
+    √ should return null if price is not a number (negative case)
+    √ handles an invalid discount rate gracefully
+    √ should return null if discountRate is not a number (negative case) (1 ms)
+    √ handles edge case with price of 0 (1 ms)                                                                  
+    √ should return same price if discount is 0 (edge case) (1 ms)                                              
+    √ should return 0 if discount is 100% (edge case)                                                           
+  Filtered Products                                                                                             
+    √ should filter products based on callback (positive case) (1 ms)                                           
+    √ should return empty array if no products match (edge case) (1 ms)                                         
+    √ should return empty array if products is not an array (negative case) (1 ms)                              
+    √ should return empty array if callback is not a function (negative case) (1 ms)                            
+  sortInventory                                                                                                 
+    √ should sort products by quantity (ascending) (1 ms)                                                       
+    √ should sort products by name alphabetically (1 ms)                                                        
+    √ should return empty array if products is not an array (negative case) (1 ms)                              
+    √ should return empty array if key is not a string (negative case)                                          
+    √ should return empty array if key does not exist (edge case)                                               
+    √ should handle empty products array (edge case) (1 ms)                                                     
+                                                                                                                
+Test Suites: 1 passed, 1 total                                                                                  
+Tests:       17 passed, 17 total                                                                                
+Snapshots:   0 total
+Time:        0.469 s, estimated 1 s
+Ran all test suites.
+*/
 
