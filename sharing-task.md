@@ -41,10 +41,10 @@ Divide students into small groups of 3–5. Each group will be responsible for w
 
 ### 🧑‍🤝‍🧑 Assign Roles Within the Group:
 
-- **Test Writer**: Writes initial test cases.
-- **Code Reviewer**: Reviews and improves the test cases.
-- **Debugger**: Ensures the implementation passes all tests.
-- **Presenter**: Summarizes the group’s contributions for sharing with the class.
+- **Test Writer**: Writes initial test cases. -Vara
+- **Code Reviewer**: Reviews and improves the test cases. -Glenn
+- **Debugger**: Ensures the implementation passes all tests. -Narani
+- **Presenter**: Summarizes the group’s contributions for sharing with the class. - Mike
 
 ---
 
