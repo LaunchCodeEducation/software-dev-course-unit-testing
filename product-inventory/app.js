@@ -18,7 +18,15 @@ function filterProducts(products, callback) {
 function sortInventory(inventory, key) {
     if (!Array.isArray(inventory) || typeof key !== 'string') return [];
     // TODO: Implement sorting logic
-    return [];
+    inventory.sort(function (a, b) {
+        let keyA = a[key];
+        let keyB = b[key];
+
+        if (keyA < keyB) return -1;
+        if (keyA > keyB) return 1;
+        return 0;
+    })
+    return inventory;
 }
 
 module.exports = {
