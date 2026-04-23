@@ -7,7 +7,7 @@ module.exports = {
 function calculateDiscount(price, discountRate) {
     if (typeof price !== 'number' || typeof discountRate !== 'number') return null;
     if (discountRate < 0 || discountRate > 1) return null;
-    // TODO: Implement logic
+    return price * (1 - discountRate);
     return null;
 }
 
